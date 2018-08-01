@@ -58,6 +58,10 @@ def merge_data(keys, values)
       if person_data[name]
         merged_person = person_data[name]
         merged_person[:first_name] = name
+<<<<<<< HEAD
+=======
+        binding.pry
+>>>>>>> 613c24e6b89a869548b30a5cbd49bc811384230f
         container << merged_person
       end
     end
